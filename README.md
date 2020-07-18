@@ -7,6 +7,6 @@ Expection
 
 Reallity
 
-![reallity]([img]https://i.imgur.com/qG5r7lJ.png[/img])
+![reallity](https://i.imgur.com/qG5r7lJ.png)
 
 [img]https://i.imgur.com/qG5r7lJ.png[/img]
