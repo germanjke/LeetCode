@@ -1,10 +1,11 @@
 # LeetCode
-My leetcode progress 
 
-Expection
+some practice in algorithms and data structures :) 
+
+#### Expection
 
 ![exptection](https://i.imgur.com/QJaPytS.png)
 
-Reallity
+#### Reallity
 
 ![reallity](https://i.imgur.com/qG5r7lJ.png)
