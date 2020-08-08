@@ -10,7 +10,5 @@ def summ_array_recursion(nums):
         return 0
     if len(nums) == 1:
         return nums[0]
-    if len(nums) == 2:
-        return nums[0] + nums[1]
     else:
         return nums[0] + summ_array_recursion(nums[1:])
