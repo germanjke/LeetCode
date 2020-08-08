@@ -12,3 +12,10 @@ def recursion_counting_elements(nums):
         return 1
     else:
         return 1 + recursion_counting_elements(nums[1:])
+
+#clean solution
+def clean_recursion_counting_elements(nums):
+    if nums == []:
+        return 0
+    else:
+        return 1 + clean_recursion_counting_elements(nums[1:])
