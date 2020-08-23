@@ -1,19 +1,14 @@
-a = [1,2,3,0,0,0,3,2,2,0]
+a = [24,0,1,2,3,0,0,0,2,3,4,1,11]
 
-def maximum_sum(array):
-    if len(array) == 1:
-        return array[0]
-    if len(array) == 0:
-        print('No array here')
-    else:
-        maximum_count = 0
-        res = 0
-        for i in range(len(array)):
-            if array[i]:
-                maximum_count += array[i]
-            else:
-                res = max(res,maximum_count)
-                maximum_count = 0
-    return res
+def max_subarray(numbers):
+    best_sum = 0  
+    current_sum = 0
+    for x in numbers:
+        if x:
+            current_sum = max(0, current_sum + x)
+            best_sum = max(best_sum, current_sum)
+        else:
+            current_sum = 0
+    return best_sum
 
-print(maximum_sum(a))
+print(max_subarray(a))
